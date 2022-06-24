@@ -34,14 +34,16 @@
 .rocket{
 	font-size: 40px;
 	margin-top: 0px;
-	margin-left: -40px;
+	
 }
 .home{
 	color: darkred !important;
 }
 .lbody{
 	background-image: url(re.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center,center;
 	
 	height: 1000px;
-	background-size: cover;
 }
