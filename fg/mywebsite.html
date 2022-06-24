@@ -1,28 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
-	<title> COCO
-		
-		 <link rel = "icon" href = 
-"data:image/png;base64,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" 
-        type = "image/x-icon">
-	</title>
-	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet"  href="fe.css">
 </head>
-<body bgcolor="#F5F5F5" >
-	<font size="100" color="E594F9"
-	font face="Franklin Gothic Heavy">
-	<p align="Center">
-		<i><b>COCO</b></i>
+<body >
+	<h1 style="font-size:70px"> Story of Life</h1>
+	<p style="font-size: 25px;">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+	<img src="C:/Users/hp/Desktop/hero/css/ft3.jpg" class="float-elements" alt="Error">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+	<img src="C:/Users/hp/Desktop/hero/css/ft.jpg" class="float">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
 
+
+	</p>
 
 </body>
-<br>
-<font size=10 color="lightblue">
-<marquee bgcolor="EAC3E5"    scrollamount=20 > 
-	<font size=10 color="lightblue">
-	<a href="https://www2.hm.com/en_in/men/shop-by-product/accessories.html" target="_blank"> Get upto 20% discount on our products and additional cashback
-</marquee>
-</br>
 </html>
