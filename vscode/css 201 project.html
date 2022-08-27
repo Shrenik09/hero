@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Volkswagen</title>
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+			font-family: sans-serif;
+		}
+		.container{
+			width: 100%;
+			
+			padding-left: 8%;
+			padding-right: 8%;
+			box-sizing: border-box;
+			overflow: hidden;
+		}
+		.navigation{
+			width: 100%;
+			display: flex;
+			align-items: center;
+			font-size: 20px;
+		}
+		.logo{
+			width: 90px;
+			margin: 30px;
+			cursor: pointer;
+			border: 2px;
+			border-radius: 10%;
+			box-shadow: ;
+		}
+		nav{
+
+			text-align: right;
+			padding: 50px 50px;
+		}
+		nav ul li{
+			margin: 20px;
+			margin-left: 20px;
+			margin-right: 70px ;
+			display: inline-block;
+			list-style: none;
+		}
+		nav ul li a{
+			text-decoration: none;
+			color: black;
+
+		}
+
+	
+		.more-option{
+			width: 20px;
+			height: 20px;
+			margin-right: 10px;
+			display: inline-flex;
+			cursor: pointer;
+			box-sizing: border-box;
+			
+
+		}
+		.more-option: hover{
+			background-color: blue;
+		}
+		.signup-btn{
+			border: 2px solid transparent;
+			border-radius: 20px;
+			background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+			background-origin: border-box;
+			background-clip: content-box,border-box;
+			cursor: pointer;
+			position: fixed;
+			right: 150px;
+			transition: transform .4s;
+		}
+		.signup-btn a{
+			text-decoration: none;
+			color: #fff;
+		}
+		.signup-btn:hover{
+			transform: scale(1.2);
+			tr
+
+		}
+		.home{
+			color: #07B085;
+		}
+		.all:hover{
+			color: #B069E8;
+
+		}
+		.bod{
+			/*min-width: 1024px;*/
+			height: 100vh;
+			margin: 0;
+			padding: 50px;
+			background-image: 	linear-gradient(180deg,rgba(0,0,0,.3)0%,rgba(0,0,0,.8)100%),
+								url(https://images.unsplash.com/photo-1517976487492-5750f3195933?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+			background-size: cover;
+			background-position: 50% !important;
+
+			
+			color: darkred;
+			font-size: 50px;
+		}
+		.bod img{
+			min-height: 100%;
+			width: 100%;
+
+		}
+		.box{
+			/*border: 2px solid white;*/
+			width: 700px;
+			height: 700px;
+			position: relative;
+			/*padding-left: 100px;*/
+			margin: auto auto;
+			left: 0px;
+		}
+		
+		.third-box{
+			border: 2px solid white;
+			width: 60%;
+			height: 50%;
+			position: absolute;
+			background-image: url(https://assets.volkswagen.com/is/image/volkswagenag/New-Volkswagen-Tiguan-3?Zml0PWNyb3AsMSZmbXQ9anBnJnFsdD03OSZ3aWQ9ODAwJmhlaT04MDAmYWxpZ249MC4wMCwwLjAwJmJmYz1vZmYmYmRmNQ==);
+			background-size: cover;
+			top: 50px;
+
+		}
+		.second-box{
+			
+			border: 2px solid white;
+			width: 50%;
+			height: 30%;
+			position: absolute;
+			background-image: url(https://rocketman.learnwagtail.com/static/images/grey-pattern.b4f896f3f272.png);
+			background-size: cover;
+
+			bottom: 0px;
+			right: 0px;
+			
+			padding: 30px 30px ;
+			box-sizing: border-box;
+			font-size: 30px;
+			overflow: auto;
+			bottom: 100px;
+			text-align: center center !important;
+
+		}
+		.second-box a{
+			text-decoration: none;
+			bol
+			color: ;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="navigation">
+			<img src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" class="logo">
+			<nav>
+				<ul>
+					<li><a href="#" target="_blank" class="home all">Home</a></li>
+					<li><a href="cars.html" target="_blank" class="all">Cars</a></li>
+					<li><a href="bikes.html" target="_blank" class="all">Bikes</a></li>
+					<li><a href="accessories.html" target="_blank" class="all">Accessories</a></li>
+					<li><a href="contact.html" target="_blank" class="all">Contact</a></li>
+				</ul>
+			</nav>
+			<div><img src="1.png" class="more-option"></div>
+			<div class="signup-btn"><a href="signup.html" target="_blank">Sign Up</a></div>
+		</div>
+		
+	</div>
+	<div class="bod">
+		<div class="box">
+			<div class="third-box"></div>
+			<div class="second-box"> <a href="#"><b>Book a Test Drive! Now!</b></a></div>
+		</div>
+	</div>
+</body>
+	
+</html>

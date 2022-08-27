@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>Grouping Form Controls in HTML</title>
+</head>
+<body>
+ <h4> <fieldset><legend align="center">Basic Information</legend>   <form>
+        <fieldset>
+            <legend>Name</legend>            
+            <label>Firstname: <input type="text" name="firstname"></label>            
+            <label>Lastname: <input type="text" name="lastname"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Gender</legend>            
+            <label><input type="radio" name="gender" value="male"> Male</label>            
+            <label><input type="radio" name="gender" value="female"> Female</label>
+            <label><input type="radio" name="gender" value="others"> Others</label>
+        </fieldset>
+<fieldset>
+            <legend>Stream</legend>            
+            <label><input type="radio" name="stream" value="BBA"> BBA </label>            
+            <label><input type="radio" name="stream" value="BCA"> BCA</label>
+            <label><input type="radio" name="stream" value="BCOM"> BCOM </label>            
+            <label><input type="radio" name="stream" value="BJMC"> BJMC</label>
+            <label><input type="radio" name="stream" value="BBALLB/BALLB"> BBALLB/BALLB</label>
+    </fieldset>
+        <fieldset>
+        	<legend>Hobbies</legend>            
+            <label><input type="checkbox" name="hobbies" value="soccer"> Soccer</label>
+            <label><input type="checkbox" name="hobbies" value="cricket"> Cricket</label>
+            <label><input type="checkbox" name="hobbies" value="baseball"> Baseball</label>
+            <label><input type="checkbox" name="hobbies" value="others"> Others</label>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label>Email Address: <input type="email" name="email"></label>
+            <label>Phone Number: <input type="text" name="phone"></label>
+        </fieldset>
+    <fieldset>
+            <legend>City Details</legend>
+    <label for="city">City:</label>
+    <select name="city" id="city">
+        <option value="Delhi ncr">Delhi ncr</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Jaipur">Jaipur</option>
+        <option value="Ahmedabad">Ahmedabad</option>
+        <option value="Others">Others</option>
+    </select></fieldset>
+<fieldset>
+            <legend>Text Area</legend>
+<label for="address">Address:</label>
+    <textarea rows="3" cols="30" name="address" id="address"></textarea></fieldset>
+<fieldset>
+<label>Date of birth
+<input type="datetime-local" name="pickup_time" required>
+</label><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</fieldset>
+</form>
+</h4>
+</body>
+</html>
